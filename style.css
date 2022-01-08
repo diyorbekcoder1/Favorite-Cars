@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+.perfect {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    font-size: 35px;
+    /* background-color: cadetblue; */
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    transform: translate(0px,-337px);
+    cursor: pointer;
+    transition: transform 0.6s;
+    border: 2px solid rebeccapurple;
+}
+
+.card:hover {
+    transform: translate(0px, 0px);
+    transition: transform 0.6s;
+}
+
+.card img {
+    width: 100%;
+    height: 334px;
+    object-fit: cover;
+}
+.perfect h3{
+    color: red;
+}
+
+/*  boshi */
+
+
+.box b {
+    color: red;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+    
+.cow a, .dow a{
+    color:chocolate;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: transform 0.6s;
+}
+
+.cow div:hover, .dow div:hover {
+    transform: scale(1.5);
+    transition: transform 0.6s;
+}
+
+body{
+    height: 1200px;
+    background: url('./gggnbhg.jpg') ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.oll img{
+    width: 380px;
+    height: 350px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid gray;
+    border-radius: 20px;
+    margin: auto ;
+    display: flex;
+   display: inline-block;
+   transition: transform 0.6s;
+       
+}
+
+.oll img:hover{
+    transform: scale(1.2);
+    transition: transform 0.6s;
+}
+.lol b:nth-child(1){
+    color: darkorange;
+    font-size: 30px;
+}
+.box2 span{
+    color:red;
+    font-size: 20px;
+}
+.box2 b{
+    color:mediumblue;
+    font-size: 30px;
+}/* Sing in */

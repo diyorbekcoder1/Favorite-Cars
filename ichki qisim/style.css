@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background: url('./gggnbhg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform (0.6) ;
+}
+.box b{
+    color: red;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box .box2 .loo a{
+    width: 200PX;
+    color: blue;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    transform: scale(1.2);
+    transition: transform(0.6);
+    }
+    .box .box2{
+        display:flex ;
+        justify-content: space-around;
+        transition:transform (0.6) ;
+        
+    }
+    .box .box2 .loo:hover{
+        transform: scale(1.2);
+        transition:transform (0.6) ;
+
+    } 
+    .box3 img{
+        width: 600px;
+        height: 500px;
+        border: 5px solid chocolate;
+        border-radius: 30px;
+            }
+    .box3 b{
+        height: 300px;
+        color: red;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .box3{
+       display: flex;
+     justify-content: space-around;
+    }
